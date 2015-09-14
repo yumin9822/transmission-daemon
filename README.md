@@ -6,7 +6,7 @@
 ```
 docker run -d -p 9091:9091 -P --name mytransmission yumin9822:transmission-daemon
 ```
-Now you can connect to the transmission-daemon WebUI on http://<Your IP>:9091/
+Now you can connect to the transmission-daemon WebUI on http://IP Address:9091/
 You could use below command on your host to see the port forwarding information
 ```
 docker port mytransmission
