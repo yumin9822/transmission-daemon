@@ -1,5 +1,5 @@
-## transmission-daemon
-  With a modern UI. The snapshoot is here http://i.imgur.com/THBEybB.png
+## transmission-daemon with a modern UI
+The snapshoot is here http://i.imgur.com/THBEybB.png
    <a href="http://imgur.com/THBEybB"><img src="http://i.imgur.com/THBEybB.png" title="source: imgur.com" /></a>
   
 
