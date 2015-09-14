@@ -1,12 +1,14 @@
 ## transmission-daemon
   With a modern UI. The snapshoot is here http://i.imgur.com/THBEybB.png
-  <a href="http://imgur.com/THBEybB"><img src="http://i.imgur.com/THBEybB.png" title="source: imgur.com" /></a>
+   <a href="http://imgur.com/THBEybB"><img src="http://i.imgur.com/THBEybB.png" title="source: imgur.com" /></a>
+  
 
 # Simplest Usage 
 ```
 docker run -d -p 9091:9091 -P --name mytransmission yumin9822:transmission-daemon
 ```
-Now you can connect to the transmission-daemon WebUI on http://IP Address:9091/
+Now you could connect to the transmission-daemon WebUI on http://IP Address:9091/ from anywhere (not only localhost)
+
 You could use below command on your host to see the port forwarding information
 ```
 docker port mytransmission
