@@ -20,4 +20,5 @@ docker run -v /root/pt/settings.json:/settings.json \
 	--name mytransmission yumin9822:transmission-daemon
 ```
 /root/pt/settings.json is your transmission-daemon config file. 
+
 /home/download is your folder which stored downloaded files
