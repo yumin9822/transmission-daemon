@@ -23,4 +23,4 @@ docker run -v /root/pt/settings.json:/settings.json \
 ```
 /root/pt/settings.json is your transmission-daemon config file. 
 
-/home/download is your folder which stored downloaded files
+/home/download is your folder which stores downloaded files
