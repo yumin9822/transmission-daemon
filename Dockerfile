@@ -12,6 +12,6 @@ RUN chmod a+x /tmp/install-tr-control.sh && sh /tmp/install-tr-control.sh /usr/s
 
 EXPOSE 9091 51413 51413/udp
 
-VOLUME ["/download"]
+VOLUME [ "/config", "/downloads", "/watch" ]
 
 CMD [ "/usr/bin/transmission-daemon", "-f", "--allowed", "*.*.*.*", "--config-dir", "/config", "--download-dir", "/download", "--watch-dir", "/watch" ]
