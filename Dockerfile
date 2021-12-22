@@ -6,8 +6,9 @@ RUN apk update && apk add \
 	&& rm -rf /var/cache/apk/* \
 	&& mkdir -p /transmission/{download,watch} \
 	&& chmod -R 777 /transmission
-RUN wget --no-check-certificate https://github.com/ronggang/transmission-web-control/raw/master/release/install-tr-control.sh -O /tmp/tr-control-easy-install.sh && \
-    chmod 755 /tmp/tr-control-easy-install.sh && /tmp/tr-control-easy-install.sh auto
+	
+COPY install-tr-control.sh /tmp
+RUN chmod a+x /tmp/install-tr-control.sh && sh /tmp/install-tr-control.sh
 
 EXPOSE 9091 51413 51413/udp
 
